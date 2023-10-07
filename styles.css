@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
+/* CSS */
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f0f0f0; /* Cor de fundo geral */
@@ -11,25 +10,22 @@ header {
   background-color: #007acc; /* Cor do cabeçalho */
   color: white;
   text-align: center;
-  padding: 2px 0;
-  padding-bottom: 0;
+  padding: 10px 0;
 }
 
 .login-container {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  margin-top: 150px;
-
+  margin-top: 20px;
 }
 
 .login-container h2 {
   margin-bottom: 20px;
   text-align: center;
-
 }
 
 .login-form {
@@ -46,12 +42,20 @@ header {
   font-weight: bold;
 }
 
-.form-group input {
-  padding: 11px;
-  padding-right: 10px;
+.input-usuario {
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  flex-grow: 1; 
+}
+
+.input-senha{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  flex-grow: 1; 
 }
 
 .form-group button {
@@ -63,20 +67,18 @@ header {
   cursor: pointer;
 }
 
-.form-group button:hover{
+.form-group button:hover {
   background-color: #035b96;
 }
 
-.texto__conta{
+.texto__conta {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   color: #007acc;
-
 }
 
-.texto__conta:hover{
-  text-decoration:underline;
-  
+.texto__conta:hover {
+  text-decoration: underline;
 }
 
 footer {
