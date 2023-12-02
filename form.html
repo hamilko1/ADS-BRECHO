@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <header>
+        <h1><img src="NOSTALGIE-02-removebg-preview.png" alt=""></h1>
+    </header>
+    
+    <div class="login-container">
+        <h2>Cadastro</h2>
+        <form class="login-form" method="POST" action="processar_cadastro.php">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>
+            <p>Já tem uma conta? <a href="login.html" class="texto__conta">Faça login!</a></p>
+        </form>
+    </div>
+
+    <footer>
+        © 2023 Nostalgie. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
